@@ -1,0 +1,29 @@
+body {
+  background-color: #42ab9e;
+  color: white;
+  margin: 0 auto;
+}
+
+.container {
+  text-align: center;
+}
+
+.show-results {
+  display: none;
+}
+
+.result {
+  padding: 20px;
+  background-color: white;
+  color: #42ab9e;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.result a {
+  color: #42ab9e;
+}
+
+.result h4 {
+  font-weight: bold;
+}
