@@ -3,7 +3,7 @@
 var searchResults;
 
 function getResults(query) {
-  $.get('http://en.wikipedia.org/w/api.php?action=opensearch&search=' + query + '&limit=10&namespace=0&format=json', function(response) {
+  $.get('https://en.wikipedia.org/w/api.php?action=opensearch&search=' + query + '&limit=10&namespace=0&format=json', function(response) {
     for (var i = 0; i < response[1].length; i++) {
       $(".show-results").append("<div class='result'><h4><a href='" + response[3][i] + "' target='_blank'>" + response[1][i] + "</a></h4><p>" + response[2][i] + "</p></div>");
     }
